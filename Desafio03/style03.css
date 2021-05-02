@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(3, 3, 27);
+}
+.cartao {
+    background-color: rgb(19, 19, 53);
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.imgcartao {
+    color: violet;
+    background-color: violet;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.titulocartao {
+    font-size: 19pt;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.textocartao{
+    font-size: 12pt;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rodape {
+    text-align: center;
+}
+h5 {
+    font-size: 20pt;
+    font-weight: bold;
+    padding-top: 25px;
+}
