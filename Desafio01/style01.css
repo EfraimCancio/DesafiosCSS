@@ -22,7 +22,7 @@ body {
   text-align: left;
 }
 .logomarca {
-  width: 150px;
+  width: 135px;
 }
 .ilustraçao {
   margin-top: 50px;
@@ -30,14 +30,56 @@ body {
 }
 .texto {
   margin-bottom: 50px;
+  padding: 15px;
 }
-
+h2 {
+  font-size: 30px;
+}
 .botao {
   background: white;
   width: 200px;
-  height: 45px;
+  height: 40px;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.6);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
   color: blueviolet;
   border: white;
+  margin-top: 10px;
+}
+.rodape {
+  margin-top: 50px;
+}
+.links {
+  color: rgba(255, 255, 255, 0.678);
+}
+
+@media (min-width: 1440px) {
+  .topo{
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+  .logomarca {
+    width: 200px;
+  }
+  .ilustraçao{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .texto {
+    font-size: x-large;
+    text-align: left;
+    padding-left: 20px;
+  }
+  h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .rodape {
+    text-align: right;
+    margin-top: 0px;
+  }
+  .botao {
+    width: 175px;
+    height: 50px;
+    font-size: 23px;
+  }
 }
