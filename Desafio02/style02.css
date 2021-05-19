@@ -8,27 +8,38 @@ body {
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  .row {
+    --bs-gutter-x: 0;
+  }
   .texto {
     color: white;
     margin-top: 50px;
-    padding: auto center;
+    padding: 40px center;
+  }
+  .paragrafo {
+    padding: 15px;
   }
   .titulo {
     padding: 30px;
   }
   .botao {
-    width: 335px;
+    width: 330px;
     height: 75px;
     background-color: rgb(91, 45, 165);
     color: white;
     font-size: 10pt;
-    box-shadow: black (3,3,3,.4);
+    box-shadow: black (6,3,3,.2);
+    border-radius: 10px;
   }
   .formulario {
-    width: 335px;
+    width: 330px;
     background-color: white;
     margin-top: 50px;
-    padding: auto center;
+    text-align: center;
+    margin-left: 11px;
+    border-radius: 10px;
+    box-shadow: black (3,3,.2);
+    margin-bottom: 40px;
   }
   .login {
     background-color: white;
