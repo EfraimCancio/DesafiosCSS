@@ -6,69 +6,116 @@ body {
     position: relative;
     text-align: center;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
   }
-  .row {
-    --bs-gutter-x: 0;
+  .container{
+    padding: 20px;
   }
   .texto {
+    height: 100%;
     color: white;
     margin-top: 50px;
-    padding: 40px center;
-  }
-  .paragrafo {
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .titulo {
-    padding: 30px;
+    padding: 0px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
   }
-  .botao {
-    width: 330px;
-    height: 75px;
-    background-color: rgb(91, 45, 165);
-    color: white;
-    font-size: 10pt;
-    box-shadow: black (6,3,3,.2);
-    border-radius: 10px;
-  }
-  .formulario {
-    width: 330px;
-    background-color: white;
+  .tabela{
+    width: 335px;
     margin-top: 50px;
     text-align: center;
-    margin-left: 11px;
-    border-radius: 10px;
-    box-shadow: black (3,3,.2);
-    margin-bottom: 40px;
   }
-  .login {
-    background-color: white;
-    margin: 20px 20px 20px 20px;
+  .botao {
     width: 335px;
-    padding-top: 10px;
+    height: 85px;
+    background-color: rgb(91, 45, 165);
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
     border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .formulario {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
   }
   .campoform {
-    width: 305px;
+    width: 295px;
+    height: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 50px;
+    color: rgb(105, 104, 112);
     border-radius: 5px;
-    padding-left: 15px
-    
+    padding-left: 15px;
+    border-width: 0.08px;  
+    border-color: rgb(105, 104, 112);
+    font-weight: bold;
   }
   .botaoform {
     background-color: rgb(65, 192, 65) ;
     color: white;
-    width: 305px;
+    width: 295px;
+    height: 60px;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 50px;
     border-radius: 5px;
+    border-width: 0px;  
+    box-shadow: 0px 5px 5px rgba(18, 126, 42, 0.637);
   }
   .rodape {
     font-size: small;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
+  }
+
+  @media (min-width: 1440px) {
+    body {
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: inline-block;
+      background-image: url(images/bg-intro-desktop.png);
+    }
+    div {
+      display: inline-block;
+    }
+    .texto {  
+      width: 45%;
+      height: 100%;
+      text-align: start;
+    }
+    .titulo {
+      padding: 0px;
+      font-size: 50px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    .tabela {
+      width: 50%;
+    }
+    .formulario {
+      width: 90%;
+    }
+    .botao {
+      width: 90%;
+      height: 60px;
+    }
+    .campoform {
+      width: 85%;
+    }
+    .botaoform {
+      width: 85%;
+    }
   }

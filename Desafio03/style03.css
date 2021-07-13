@@ -1,11 +1,15 @@
 body {
     background-color: rgb(3, 3, 27);
 }
+
 .cartao {
-    background-color: rgb(19, 19, 53);
+    background-color: rgb(28, 28, 68);
     color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .imgcartao {
     color: violet;
@@ -23,6 +27,9 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+p {
+    color: rgb(223, 202, 202);
+}
 .textocartao{
     font-size: 12pt;
     text-align: center;
@@ -35,5 +42,6 @@ body {
 h5 {
     font-size: 20pt;
     font-weight: bold;
-    padding-top: 25px;
+    padding-bottom: 0%;
+    padding-top: 5%;
 }
