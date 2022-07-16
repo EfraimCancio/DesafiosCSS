@@ -34,7 +34,7 @@ The designs were created to the following widths:
 
 #### Headings
 
-- Famhttps://fonts.google.com/specimen/Poppinsily: [Poppins]()
+- Famhttps://fonts.google.com/specimen/Poppinsily: [Poppins](https://fonts.google.com/specimen/Poppins?query=po)
 - Weights: 400, 600
 
 #### Body

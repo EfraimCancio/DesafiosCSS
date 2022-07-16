@@ -2,60 +2,74 @@ html, body {
     height: 100%;
 }
 body { 
-  padding: 0;
-  margin: 0 auto;
   position: relative;
-  background-color: blueviolet;
-  background-image: url(images/bg-mobile.svg);
-  background-repeat: no-repeat;
+  background-color: rgb(103, 75, 177);
+  
+  
   text-align: center;
   font-family: Open Sans,sans-serif;
   font-weight: 400;
 }
 .container--home {
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
   text-align: center;
   color: white;
-  padding: 25px;
+  padding: 10%;
 } 
-.topo {
-  margin-top: 0px;
+.top {
+  margin-top: -3%;
   text-align: left;
 }
-.logomarca {
+.logo {
   width: 135px;
 }
-.ilustraçao {
-  margin-top: 50px;
+.ilustration {
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+.main-content {
   margin-bottom: 50px;
 }
-.texto {
-  margin-bottom: 50px;
-  padding: 15px;
-}
-h2 {
-  font-size: 30px;
+.title {
+  font-size: 26px;
   font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 2.3rem;
 }
-.botao {
+.text {
+  margin-top: 18px;
+  font-size: 18px;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5rem;
+}
+.botton {
   background: white;
-  width: 200px;
-  height: 40px;
+  width: 220px;
+  height: 45px;
   border-radius: 25px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
   color: blueviolet;
   border: white;
-  margin-top: 10px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+
 }
-.rodape {
-  margin-top: 18px;
+.footer {
+  margin-top: 4rem;
   margin-bottom: 20px;
   color: white;
 }
 .links {
-  width: 25px;
-  color: white;
-  margin-left: 2px;
-  margin-right: 2px;
+  font-size: 2rem;
+  background-color: white;
+  color: rgb(103, 75, 177);
+  margin: 4px;
+  border-radius: 50px;
+  padding: 5px;
 }
 
 @media (min-width: 1440px) {
