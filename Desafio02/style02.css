@@ -1,5 +1,5 @@
 body {
-    background-color: tomato;
+    background-color: rgb(255, 122, 122);
     background-image: url(images/bg-intro-mobile.png);
     padding: 0;
     margin: 0 auto;
@@ -12,43 +12,54 @@ body {
   .container{
     padding: 20px;
   }
-  .texto {
+  .text {
     height: 100%;
     color: white;
     margin-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
   }
-  .titulo {
+  .title {
     padding: 0px;
-    font-size: 30px;
+    font-size: 27px;
     margin-bottom: 20px;
     font-weight: bold;
+    margin-top: 4.5rem;
+    padding-inline: 2rem;
+    line-height: 2.3rem;
   }
-  .tabela{
+  p {
+    font-weight: 500;
+    line-height: 1.6rem;
+  }
+  .table-container {
     width: 335px;
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 75px
   }
-  .botao {
-    width: 335px;
+  .button {
+    width: 320px;
     height: 85px;
-    background-color: rgb(91, 45, 165);
+    background-color: rgb(95, 84, 163);
     color: white;
     font-size: 12pt;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 35%);
     border-radius: 10px;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 1rem;
   }
-  .formulario {
+  .form-container {
+    width: 320px;
     background-color: white;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 26px;
     padding-top: 20px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.349);
+    display: inline-block;
   }
-  .campoform {
+  .form-area {
     width: 295px;
     height: 60px;
     margin-top: 10px;
@@ -57,26 +68,38 @@ body {
     border-radius: 5px;
     padding-left: 15px;
     border-width: 0.08px;  
-    border-color: rgb(105, 104, 112);
+    border-color: rgb(202, 202, 202);
     font-weight: bold;
   }
-  .botaoform {
-    background-color: rgb(65, 192, 65) ;
+  .form-button {
+    background-color: rgb(53, 198, 135) ;
     color: white;
     width: 295px;
     height: 60px;
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border-width: 0px;  
     box-shadow: 0px 5px 5px rgba(18, 126, 42, 0.637);
   }
-  .rodape {
+  .footer {
     font-size: small;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 30px;
+  }
+
+  footer p {
+    font-size: .7rem;
+    font-weight: 600;
+    color: rgb(202, 202, 202);
+  }
+
+  footer a {
+    font-size: .6rem;
+    font-weight: bold;
+    color: rgb(255, 122, 122);
   }
 
   @media (min-width: 1440px) {
