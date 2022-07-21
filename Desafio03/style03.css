@@ -7,20 +7,30 @@ body {
 .cartao {
     background-color: rgb(27, 25, 56);
     color: hsl(0, 0%, 100%);
-    margin-top: 60px;
-    margin-bottom: 60px;
-    border-radius: 15px;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    border-radius: 8px;
     margin-left: 14px;
     margin-right: 14px;
 }
-
+   
 .imgcartao {
-    border-radius: 15px;
+    border-radius: 8px 8px 0px 0px;
     color: violet;
     background-color: violet;
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
+.mask {
+    background-color: hsl(277deg 74% 52% / 48%);
+    height: 240.59px;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    margin-top: -240.59px;
+    border-radius: 8px 8px 0px 0px;
+}
+
 .titulocartao {
     font-size: 21pt;
     text-align: center;
