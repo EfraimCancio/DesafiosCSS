@@ -23,11 +23,11 @@ body {
 }
 .mask {
     background-color: hsl(277deg 74% 52% / 48%);
-    height: 240.59px;
+    height: 237.59px;
     width: 100%;
     z-index: 10;
     position: relative;
-    margin-top: -240.59px;
+    margin-top: -236.59px;
     border-radius: 8px 8px 0px 0px;
 }
 
@@ -63,4 +63,45 @@ h5 {
     color: hsla(0, 0%, 100%, 0.6);
     font-size: 14px;
     font-weight: 400;
+}
+
+@media (min-width: 1440px) {
+    .cartao {
+        flex-direction: row-reverse;
+        margin-top: 11rem;
+    }
+    .imgcartao {
+        border-radius: 0px 8px 8px 0px;
+    }
+    .mask {
+        position: absolute;
+        margin-block-start: revert;
+        width: 41rem;
+        height: -webkit-fill-available;
+        border-radius: 0px 8px 8px 0px;
+    }
+    .card-body {
+        
+    }
+    .titulocartao {
+        font-size: 30pt;
+        text-align: left;
+        margin-left: 4rem;
+        padding-top: 51px;
+    }
+    .textocartao {
+        font-size: 1rem;
+        margin-left: 4rem;
+        margin-right: 5rem;
+        text-align: left;
+        line-height: 2rem;
+        margin-top: 1rem;
+    }
+    .card-footer {
+        position: absolute;
+        display: flex;
+        margin-right: 48rem;
+        margin-top: 21rem;
+        gap: 5rem;
+    }
 }
