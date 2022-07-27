@@ -1,8 +1,139 @@
-.logomarca {
-    width: 100px;
+.container {
+    padding: 2rem;
+    
+}
+.header {
+    padding: 0rem;
+    margin-top: -0.5rem;
+    margin-bottom: 5rem;
+}
+.logo {
+    width: 5.2rem;
     height: auto;
 }
-.navegacao {
-    align-items: flex-start;    
-    
+.navegation {
+    align-items: flex-start;
+    flex-direction: inherit;
+    gap: 1rem;
+    line-height: 1rem;
+    font-weight: 300;
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.navegation a {
+    color: hsl(243, 87%, 12%);
+}
+.img01-container{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.img01 {
+    width: 95%;
+}
+.txt01-container {
+    text-align: center;
+    font-size: 1rem;
+    color: hsl(243, 87%, 12%);
+}
+.title01 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.9rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.text01 {
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+.form01 {
+    margin-bottom: 3rem;
+}
+.form01 input {
+    border: 1px solid #254564;
+    margin-bottom: 1rem;
+}
+.form01 button {
+    width: 100%;
+    font-weight: bold;
+}
+.section02 {
+    background-color: hsl(240, 75%, 98%);
+    padding-bottom: 4rem;
+}
+.img02-container {
+    text-align: center;
+    margin-block: 3rem;
+}
+.img02 {
+    width: 95%;
+}
+.txt02-container {
+    color: hsl(238, 22%, 44%);
+}
+.title02 {
+    color: hsl(243, 87%, 12%);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.text02 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.link02-container {
+    text-align: center;
+    margin-block: 2rem;
+}
+.link02-container a {
+    color: hsl(170, 45%, 43%);
+    text-underline-position: under;
+}
+.testimonial-container {
+    border: none;
+    color:hsl(243, 87%, 12%);
+}
+.testimonial {
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 11px;
+}
+.card-title {
+    margin-bottom: -1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.section03 {
+    padding-block: 3rem;
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+    text-align: center;
+}
+.title03 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.text03 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.form03 {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form03 input {
+        height: 2.5rem; 
+        width: 75%;
+        margin-bottom: .5rem;
+}
+.form03 button {
+    width: 75%;
+    height: 2.5rem;
+    font-weight: bold;
 }
