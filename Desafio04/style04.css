@@ -1,9 +1,6 @@
-.container {
-    padding: 2rem;
-    
-}
+
 .header {
-    padding: 0rem;
+    padding: 1.5rem;
     margin-top: -0.5rem;
     margin-bottom: 5rem;
 }
@@ -22,6 +19,10 @@
 }
 .navegation a {
     color: hsl(243, 87%, 12%);
+}
+.section01 {
+    padding-inline: 1.5rem;
+    margin-bottom: 2rem;
 }
 .img01-container{
     text-align: center;
@@ -44,6 +45,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .text01 {
+    padding-inline: 1rem;
     font-size: 14px;
     margin-bottom: 2rem;
 }
@@ -58,9 +60,14 @@
     width: 100%;
     font-weight: bold;
 }
+.bg-img {
+    max-width: fit-content;
+    margin-left: -12px;
+}
 .section02 {
     background-color: hsl(240, 75%, 98%);
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
+    padding-inline: 0.8rem;
 }
 .img02-container {
     text-align: center;
@@ -73,14 +80,15 @@
     color: hsl(238, 22%, 44%);
 }
 .title02 {
+ 
     color: hsl(243, 87%, 12%);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 2rem;
     text-align: center;
 }
 .text02 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
 }
 .link02-container {
@@ -90,10 +98,13 @@
 .link02-container a {
     color: hsl(170, 45%, 43%);
     text-underline-position: under;
+    font-size: 11px;
 }
 .testimonial-container {
+    margin-inline: 1rem;
     border: none;
     color:hsl(243, 87%, 12%);
+    box-shadow: 0 0 5px 3px hsl(243deg 87% 12% / 5%);
 }
 .testimonial {
     padding: 1rem 1rem 1rem 2rem;
@@ -119,6 +130,7 @@
 .text03 {
     font-weight: 400;
     margin-bottom: 2rem;
+    padding-inline: 1.8rem;
 }
 .form03 {
     margin-bottom: 1rem;
@@ -128,12 +140,67 @@
     align-items: center;
 }
 .form03 input {
-        height: 2.5rem; 
+        height: 2rem; 
         width: 75%;
         margin-bottom: .5rem;
 }
 .form03 button {
     width: 75%;
-    height: 2.5rem;
+    height: 2rem;
     font-weight: bold;
+    padding: 0rem;
+}
+.footer {
+    font-size: 1.1rem;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding-top: 4rem;
+}
+.footer01 {
+    display: grid;
+    padding-left: 2.5rem;
+    margin-bottom: 3rem;
+}
+.logorodape {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+.footer01 a {
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+}
+.footer01 a img {
+    margin-right: 1rem;
+}
+.footer02 {
+    display: grid;
+    padding-left: 2.5rem;
+    margin-bottom: 3rem;
+}
+.footer02 a {
+    margin-bottom: 1rem;
+}
+.footer03 {
+    display: grid;
+    padding-left: 2.5rem;
+    margin-bottom: 3rem;
+}
+.footer03 a {
+    margin-bottom: 1rem;
+}
+.footer04 {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: -1rem;
+}
+.footer04 svg {
+    width: 2rem;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 50px;
+    margin-inline: 10px;
+}
+.fb-icon {
+    background-color: #ffffff;    
 }
