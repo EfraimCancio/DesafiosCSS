@@ -61,9 +61,11 @@
     font-weight: bold;
 }
 .bg-img {
-    max-width: fit-content;
-    margin-left: -12px;
+    background-image: url(images/bg-curve-mobile.svg);
+    margin-left: 2px;
+    height: 1.7rem;
 }
+
 .section02 {
     background-color: hsl(240, 75%, 98%);
     padding-bottom: 5rem;
@@ -204,3 +206,146 @@
 .fb-icon {
     background-color: #ffffff;    
 }
+@media (min-width: 1440px) {
+    .container {
+        max-width: fit-content;
+    }
+    .header {
+        margin-top: 2rem;
+        margin-inline: 3rem;
+    }
+    .logo {
+        width: 13rem;
+        height: auto;
+    }
+    .navegation {
+        font-size: 1.5rem;
+        gap: 5rem;
+    }
+    .section01 {
+        flex-direction: row-reverse;
+        margin-inline: 3rem;
+    }
+    .title01 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-align: left;
+        line-height: 4rem;
+    }
+    .text01 {
+        font-size: 1.2rem;
+        text-align: left;
+        padding-left: 0;
+    }
+    .form01 {
+        margin-bottom: 3rem;
+        display: flex;
+        gap: 1rem;
+        margin-right: 4rem;
+        height: 3rem;
+    }
+    .form01 input {
+        height: 100%;
+        margin-bottom: 0;
+    }
+    .form01 button {
+        width: 45%;
+        padding: 1r.5rem;
+
+    }
+    .section02 {
+        flex-direction: row-reverse;
+        padding-inline: 3rem;
+        padding-bottom: 8rem;
+    }
+    .img02-container {
+        width: 50%;
+    }
+    .bg-img{
+        background-image: url(images/bg-curve-desktop.svg);
+    }
+    .txt02-container {
+        width: 50%;
+    }
+    .title02 {
+        margin-left: 1rem;
+        font-size: 2.4rem;
+        margin-top: 2.5rem;
+    }
+    .text02 {
+        font-size: 1.2rem;
+        text-align: left;
+        padding-left: 1.8rem;
+    }
+    .link02-container {
+        text-align: left;
+        margin-left: 1.8rem;
+    }
+    .link02-container a {
+        font-size: 1.5rem;
+    }
+    .testimonial-container {
+        margin-left: 1.8rem;
+        width: 63%;
+    }
+    .testimonial {
+        font-size: 17px;
+    }
+    .section03 {
+        padding-inline: 3.8rem;
+        text-align: left;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        align-items: center;
+    }
+    .txt03-container{
+        font-size: 1.3rem;
+    }
+    .title03 {
+        margin-left: 1.8rem;
+        font-size: 2.3rem;
+    }
+    .text03 {
+        padding-left: 1.8rem;
+        padding-right: 0rem;
+    }
+    .form03-container {
+        width: 50%;
+    }
+    .form03 {
+        height: 9rem;
+        margin-left: 4rem;
+        gap: 5px;
+    }
+
+    .form03 input {
+        height: 3.8rem;
+        border-radius: 0.25rem;
+        box-shadow: rgba(0, 0, 0, 0.164) 2px 2px 2px 2px;
+   
+    }
+    .form03 button {    
+        height: 3.8rem;
+        width: 50%;
+        align-self: self-start;
+        margin-left: 4.5rem;
+        box-shadow: rgba(0, 0, 0, 0.164) 2px 2px 2px 2px;
+    }
+    .footer {
+        padding-top: 6rem;
+        padding-inline: 3rem;
+        padding-bottom: 3rem;
+    }
+    .footer01 a {
+        line-height: 0rem;
+        margin-top: -3rem;
+    }
+    .footer02, .footer03, .footer04 {
+        padding-top: 5rem;
+    }
+    .footer04 {
+        text-align: left;
+    }
+}
+
+    
